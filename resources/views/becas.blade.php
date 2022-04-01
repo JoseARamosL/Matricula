@@ -355,7 +355,7 @@
                 contexto.fillRect(0, 0, anchoCanvas, altoCanvas);
             }
 
-            /* Enviar el trazado */
+            /* Enviar el trazado 1*/
             function GuardarTrazado() {
                 imagen.value = document.getElementById(idCanvas).toDataURL('image/png');
                 document.forms[idForm].submit();
