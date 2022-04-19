@@ -215,7 +215,7 @@
         <span style="font-style:normal;font-weight:bold;font-size:11pt;font-family:Helvetica;color:#8d919a">
         </span><br />
         <span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Helvetica;color:#8d919a">
-            {{ $firma }}
+            <img src="{{$firma}}" alt="">
         </span>
         <span style="font-style:normal;font-weight:normal;font-size:11pt;font-family:Helvetica;color:#8d919a">
         </span><br /></SPAN>

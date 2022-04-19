@@ -24,7 +24,7 @@ class PDFController extends Controller
         $formacionPrevia = null;
         $objetivo = null;
 
-        $firma = $_POST['imagen.value'];
+        $firma = $_POST['imagen'];
 
         $fechaActual = date('d-m-Y');
 
@@ -72,6 +72,7 @@ class PDFController extends Controller
             "date" => $date,
             "tramo" => $tramo,
             "DNI" => $DNI,
+            "firma" => $firma,
             "numCuenta" => $numCuenta,
             "formacionPrevia" => $formacionPrevia,
             "objetivo" => $objetivo,

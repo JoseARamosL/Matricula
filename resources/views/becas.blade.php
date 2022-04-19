@@ -168,6 +168,7 @@
                                     <button type='button' onclick='LimpiarTrazado()'>Borrar</button>
                                     <button type='button' onclick='GuardarTrazado()'>Guardar</button>
                                     <input type='hidden' name='imagen' id='imagen' />
+                                    <img src="" alt="" id="prueba" name="prueba">
                                 </form>
                             </div>
 
@@ -358,8 +359,9 @@
             /* Enviar el trazado 1*/
             function GuardarTrazado() {
                 imagen.value = document.getElementById(idCanvas).toDataURL('image/png');
-                document.forms[idForm].submit();
-                console.log(imagen.value);
+                //document.forms[idForm].submit();
+                console.log(imagen);
+                $('#prueba').attr("src", imagen.value);
             }
         </script>
 
